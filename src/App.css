@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-appearance 1.6s ease-in;
+  height: 80px;
+  background: white;
+  padding: 15px 0;
+  border-radius: 3px;
+}
+
+.App-header {
+  background-color: #1B4691;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-appearance {
+  from {
+    opacity: 0;
+    transform: scale(0.1) rotate(30deg);
+    transform-origin: center bottom;
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+/* ------------------------------------------ */
+
+.App button {
+  margin: 10px;
+}
+
+.panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;  
+  margin-top: 50px;
+}
+
+.panel > div {
+  align-items: center;
+  justify-content: center;
+  display: flex; 
+}
+
+.panel-right {
+  flex-direction: column;
+}
+
+.panel-right .save {
+  height: 100px;
+  margin: 0;
+}
+
+.panel-child {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.panel-child span {
+    margin-left: 50px;
+}
+
+.panel td{
+  border-left: solid thin;
+  border-right: solid thin;
+  padding: 20px;
+  margin: 20px;
+}
+
+.panel table {
+  width: 500px;
+}
